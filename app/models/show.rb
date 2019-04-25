@@ -1,3 +1,3 @@
 class Show < ActiveRecord::Base
-  belongs_to :characters
+  has_many :characters
 end
