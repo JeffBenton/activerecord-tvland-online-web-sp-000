@@ -44,6 +44,7 @@ describe "Actor" do
     khaleesi.actor = emilia
     got = Show.new(:name => "Game of Thrones")
     khaleesi.show = got
+    binding.pry
     khaleesi.save
 
     khaleesi.reload
